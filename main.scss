@@ -1,0 +1,53 @@
+// main.scss
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; // Light background
+    color: #343a40; // Dark text
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background: linear-gradient(135deg, #007bff, #00c4ff);
+    color: white;
+}
+
+.card {
+    transition: transform 0.2s;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    transition: background-color 0.3s;
+    
+    &:hover {
+        background-color: #e0a800;
+    }
+}
+
+.carousel-item {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Cars</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.scss">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <header class="bg-primary text-white text-center py-5">
+            <h1 class="display-4">Tesla Cars</h1>
+            <p class="lead">Experience the Future of Driving</p>
+        </header>
+
+        <!-- Introduction Section -->
+        <section class="text-center my-5">
+            <div class="container">
+                <h2>Welcome to the World of Tesla</h2>
+                <p class="lead">Discover our range of electric vehicles designed for safety, performance, and sustainability.</p>
+                <button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#videoModal">Watch Our Story</button>
+            </div>
+        </section>
+
+        <!-- Video Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">Tesla Story</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/e67olR-cYqc?si=r0MNGpLAd0iET-nl&start=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tesla Models Section -->
+        <section class="my-5">
+            <div class="container">
+                <h2 class="text-center">Our Models</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./img/tesla-s.jpg" class="card-img-top" alt="Tesla Model S">
+                            <div class="card-body">
+                                <h5 class="card-title">Tesla Model S</h5>
+                                <p class="card-text">Experience unparalleled performance with the Tesla Model S. It's the best in class.</p>
+                                <ul>
+                                    <li><strong>Top Speed:</strong> 200 mph</li>
+                                    <li><strong>Range:</strong> 396 miles</li>
+                                    <li><strong>Acceleration:</strong> 0-60 mph in 1.99 seconds</li>
+                                </ul>
+                                <span class="badge badge-success">Best Seller</span>
+                                <a href="#" class="btn btn-primary mt-2">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./img/tesla-3.jpg" class="card-img-top" alt="Tesla Model 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Tesla Model 3</h5>
+                                <p class="card-text">The Model 3 is the most affordable Tesla and offers amazing range and performance.</p>
+                                <ul>
+                                    <li><strong>Top Speed:</strong> 162 mph</li>
+                                    <li><strong>Range:</strong> 358 miles</li>
+                                    <li><strong>Acceleration:</strong> 0-60 mph in 3.1 seconds</li>
+                                </ul>
+                                <span class="badge badge-warning">Popular Choice</span>
+                                <a href="#" class="btn btn-primary mt-2">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./img/tesla-X.jpg" class="card-img-top" alt="Tesla Model X">
+                            <div class="card-body">
+                                <h5 class="card-title">Tesla Model X</h5>
+                                <p class="card-text">The Model X combines utility and performance, making it a perfect family SUV.</p>
+                                <ul>
+                                    <li><strong>Top Speed:</strong> 155 mph</li>
+                                    <li><strong>Range:</strong> 348 miles</li>
+                                    <li><strong>Acceleration:</strong> 0-60 mph in 2.5 seconds</li>
+                                </ul>
+                                <span class="badge badge-info">Family-Friendly</span>
+                                <a href="#" class="btn btn-primary mt-2">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="bg-light text-center py-5">
+            <div class="container">
+                <h2>Why Choose Tesla?</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Safety</h3>
+                        <p>Every Tesla is designed to exceed safety standards, providing peace of mind on the road.</p>
+                        <button class="btn btn-outline-primary">Learn More</button>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Performance</h3>
+                        <p>Unmatched acceleration and handling make driving a Tesla an exhilarating experience.</p>
+                        <button class="btn btn-outline-primary">Learn More</button>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Sustainability</h3>
+                        <p>Join the movement towards a sustainable future with Tesla's electric vehicles.</p>
+                        <button class="btn btn-outline-primary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Specifications Section -->
+        <section class="my-5">
+            <div class="container">
+                <h2 class="text-center">Detailed Specifications</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Tesla Model S</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Battery: 100 kWh</li>
+                            <li class="list-group-item">Horsepower: 1020 hp</li>
+                            <li class="list-group-item">Seating Capacity: 5</li>
+                            <li class="list-group-item">Cargo Space: 28 cu ft</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Tesla Model 3</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Battery: 82 kWh</li>
+                            <li class="list-group-item">Horsepower: 450 hp</li>
+                            <li class="list-group-item">Seating Capacity: 5</li>
+                            <li class="list-group-item">Cargo Space: 15 cu ft</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h4>Tesla Model X</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Battery: 100 kWh</li>
+                            <li class="list-group-item">Horsepower: 1020 hp</li>
+                            <li class="list-group-item">Seating Capacity: 7</li>
+                            <li class="list-group-item">Cargo Space: 88 cu ft</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Tesla Model Y</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Battery: 75 kWh</li>
+                            <li class="list-group-item">Horsepower: 384 hp</li>
+                            <li class="list-group-item">Seating Capacity: 5-7</li>
+                            <li class="list-group-item">Cargo Space: 68 cu ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="my-5">
+            <div class="container">
+                <h2 class="text-center">Customer Testimonials</h2>
+                <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class="lead">"Driving a Tesla has changed my life. It's not just a car; it's a lifestyle!" - Sarah</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="lead">"I love my Model 3! The performance is incredible, and I feel good about being environmentally friendly." - John</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="lead">"The Model X is perfect for my family. We travel in style and comfort." - Emily</p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white text-center py-4">
+            <p>&copy; 2024 Tesla, Inc. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
